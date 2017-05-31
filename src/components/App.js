@@ -1,7 +1,14 @@
 import React from 'react'
+import Nav from './Nav'
+import Footer from './Footer'
 
 const App = () => (
-  <div>Test React Redux</div>
+  <div>
+    <Nav />
+    <div className="container">
+      <Footer />
+    </div>
+  </div>
 )
 
 export default App
